@@ -21,7 +21,7 @@ function Register() {
 
    let senddetails=async (event)=>{
     event.preventDefault()
-    let response=  await fetch('http://localhost:3000/register',{
+    let response=  await fetch('https://backend-pvp-ecommerce.onrender.com/auth/register',{
         method:'POST',
         headers:{
             "Content-Type": "application/json"
